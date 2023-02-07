@@ -1,7 +1,21 @@
 ---
-title: "About us"
-output: html_document
-
+name: "About us"
+navbar:
+  title: "Our Collaborative Website"
+  left:
+    - text: "Cars"
+      href: About.html
+    - text: "About"
+      href: about.html
+    - text: "Answers"
+      href: assignment_1.html
+output_dir: "."
+output:
+  html_document:
+    theme: cerulean
+    highlight: textmate
+    toc: true 
+    toc_float: true 
 
 
 
